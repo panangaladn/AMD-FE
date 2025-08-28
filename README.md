@@ -1,50 +1,116 @@
-# Welcome to your Expo app 👋
+# 📱 **My Contact App FRONTEND – README.md**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+<a id="readme-top"></a>
 
-1. Install dependencies
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h2 align="center">My Contact App - Frontend</h2>
+
+  <p align="center">
+    Welcome to the <strong>My Contact App</strong> frontend repository!  
+    This React Native app lets you manage your personal contacts with features to add, update, remove, and view all contacts.  
+    <br />
+    <a href="https://github.com/panangaladn/AMD-FE"><strong>Explore the project »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/panangaladn/AMD-FE/issues/new?labels=bug">Report Bug</a>
+    ·
+    <a href="https://github.com/panangaladn/AMD-FE/issues/new?labels=enhancement">Request Feature</a>
+  </p>
+</div>
+
+---
+
+## About The Project
+
+The **My Contact App (Frontend)** is a mobile application built with **React Native**. It connects to the backend API and provides users with a clean, fast, and intuitive interface for managing contacts.
+
+### Core Features
+1. ➕ Add a new contact  
+2. ✏️ Update an existing contact  
+3. ❌ Delete a contact  
+4. 👀 View all contacts  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+### Built With
+
+[![React Native][rn-shield]][rn-url]
+[![NativeWind][nw-shield]][nw-url]
+[![Redux][redux-shield]][redux-url]
+[![Axios][axios-shield]][axios-url]
+[![TypeScript][typescript-shield]][typescript-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Getting Started
+
+Follow these instructions to set up the project locally.
+
+### Prerequisites
+1. Node.js (v18+) → [Download](https://nodejs.org/)  
+2. npm or yarn → Comes with Node.js / [Install Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)  
+3. Expo Go (for running on mobile) → [Install on iOS/Android](https://expo.dev/client)
+
+### Installation and Setup
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/your-username/AMD-FE.git
+   cd my-contact-app-frontend
+
+
+2. Install dependencies
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
+3. Run the app (Expo)
 
    ```bash
-   npx expo start
+   npm start
+   # or
+   yarn start
    ```
 
-In the output, you'll find options to open the app in a
+   Scan the QR code with the Expo Go app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Backend Repository
 
-## Get a fresh project
+The backend for this project is here:
+👉 [My Contact App - Backend](https://github.com/panangaladn/AMD-BE)
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## License
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Distributed under the **MIT License**. See [LICENSE](LICENSE) for more information.
 
-## Learn more
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<!-- SHIELDS -->
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[rn-shield]: https://img.shields.io/badge/React_Native-black?style=for-the-badge&logo=react&logoColor=61DAFB
+[rn-url]: https://reactnative.dev/
+[nw-shield]: https://img.shields.io/badge/NativeWind-black?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC
+[nw-url]: https://www.nativewind.dev/
+[redux-shield]: https://img.shields.io/badge/Redux-black?style=for-the-badge&logo=redux&logoColor=764ABC
+[redux-url]: https://redux.js.org/
+[axios-shield]: https://img.shields.io/badge/Axios-black?style=for-the-badge&logo=axios&logoColor=5A29E4
+[axios-url]: https://axios-http.com/
+[typescript-shield]: https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=typescript&logoColor=3178C6
+[typescript-url]: https://www.typescriptlang.org/
